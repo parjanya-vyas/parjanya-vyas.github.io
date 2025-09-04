@@ -1,7 +1,7 @@
 ---
 title: Post Archive
 layout: posts
-permalink: /posts/
+permalink: /dissertation/
 show_excerpts: true
 entries_layout: list
 ---

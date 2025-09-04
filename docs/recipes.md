@@ -1,9 +1,8 @@
 ---
-title: Recipes
-layout: collection
-permalink: /recipes/
-collection: recipes
-entries_layout: grid
+title: Contact
+layout: page
+permalink: /contact/
+entries_layout: list
 ---
 
-Sample document listing for the collection `_recipes`.
+**Email Address:** vyas.parjanya@gmail.com

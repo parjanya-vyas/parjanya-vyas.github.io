@@ -1,7 +1,8 @@
 ---
-title: Tag Archive
-layout: tags
-permalink: /tags/
+title: About
+layout: page
+permalink: /about/
 show_excerpts: true
-entries_layout: list
 ---
+
+I am a Ph.D. student at University of Waterloo.

@@ -1,7 +1,7 @@
 ---
-title: Category Archive
-layout: categories
+title: Publications
+description: Publications
+layout: posts
 permalink: /publications/
-show_excerpts: true
 entries_layout: list
 ---

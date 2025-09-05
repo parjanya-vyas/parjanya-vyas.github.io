@@ -13,3 +13,24 @@ Cornelius Fiddlebone:
   name: Cornelius Fiddlebone
   picture: /images/bio-photo.jpg
   twitter: corneliusfiddlebone
+
+Parjanya Vyas:
+  name: Parjanya Vyas
+  links:
+    - title: Website
+      url: https://parjanya-vyas.github.io/
+
+Asim Waheed:
+  name: Asim Waheed
+
+Yousra Aafer:
+  name: Yousra Aafer
+  links:
+    - title: Website
+      url: https://cs.uwaterloo.ca/~yaafer/
+
+N. Asokan:
+  name: N. Asokan
+  links:
+    - title: Website
+      url: https://asokan.org/asokan/

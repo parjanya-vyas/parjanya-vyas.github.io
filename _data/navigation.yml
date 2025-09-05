@@ -2,8 +2,8 @@
 
 - title: Home
   url: /
-- title: Dissertation
-  url: /dissertation/
+# - title: Dissertation
+#  url: /dissertation/
 - title: Publications
   url: /publications/
 - title: About

@@ -2,7 +2,9 @@
 layout: page
 show_excerpts: true
 entries_layout: list
+title: Dissertation
 ---
+
 Android’s flexibility has fueled its global success across phones, cars, TVs, and wearables — but this very openness also introduces serious security challenges. In particular, customizations made by device manufacturers often lead to inconsistent access control (AC) enforcement, leaving sensitive functionality exposed to malicious apps.
 
 My dissertation develops new static analysis techniques that uncover these hidden vulnerabilities by leveraging Android-specific context. I present four contributions:

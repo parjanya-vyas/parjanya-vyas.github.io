@@ -1,7 +1,7 @@
 ---
-title: About
+title: CV
 layout: page
-permalink: /about/
+permalink: /cv/
 show_excerpts: true
 ---
 

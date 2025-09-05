@@ -38,11 +38,15 @@
 <loc>http://localhost:4000/contact/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/about/</loc>
+<loc>http://localhost:4000/cv/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/theme-setup/</loc>
 <lastmod>2018-02-02T14:12:02-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/docs/images/Resume_Academic.pdf</loc>
+<lastmod>2025-09-05T00:56:11-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/docs/images/usenixsecurity23-vyas.pdf</loc>

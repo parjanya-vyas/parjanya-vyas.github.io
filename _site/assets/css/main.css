@@ -442,7 +442,7 @@ tr, td, th { vertical-align: middle; }
 
 /* Wide Layout Overrides ========================================================================== */
 .layout--home .page-wrapper, .layout--posts .page-wrapper, .layout--categories .page-wrapper, .layout--tags .page-wrapper, .layout--category .page-wrapper, .layout--tag .page-wrapper, .layout--collection .page-wrapper, .layout--search .page-wrapper { max-width: 768px; }
-.layout--home .page-title, .layout--posts .page-title, .layout--categories .page-title, .layout--tags .page-title, .layout--category .page-title, .layout--tag .page-title, .layout--collection .page-title, .layout--search .page-title { text-align: center; }
+.layout--home .page-title, .layout--posts .page-title, .layout--categories .page-title, .layout--tags .page-title, .layout--category .page-title, .layout--tag .page-title, .layout--collection .page-title, .layout--search .page-title { text-align: left; }
 
 @media (min-width: 64em) { .layout--post .page-wrapper { display: grid; grid-column-gap: 3em; grid-row-gap: 0; grid-template-columns: 175px 1fr; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; } }
 @media (min-width: 64em) { .layout--post .page-header { grid-column: 1 / -1; clear: both; } }

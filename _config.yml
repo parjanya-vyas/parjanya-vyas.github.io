@@ -102,6 +102,13 @@ author:
 
 # Footer Links
 footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+- title: Main
+  url: mailto:parjanya.vyas@uwaterloo.ca
+  icon: fas fa-envelope
+- title: LinkedIn
+  url: https://ca.linkedin.com/in/parjanya-vyas
+  icon: fab fa-linkedin
+- title: GitHub
+  url: https://github.com/parjanya-vyas
+  icon: fab fa-github-square
+

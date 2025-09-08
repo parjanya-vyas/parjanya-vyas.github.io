@@ -4,26 +4,26 @@ layout: default
 
 <main id="main" class="main-content" aria-label="Content">
   <article>
-    <header class="page-header" style="padding-left: 1em; padding-right: 1em;">
+    <header class="homepage-header" style="padding-left: 1em; padding-right: 1em;">
       {% if page.id %}
       {% assign title = page.title | markdownify | strip_html %}
       {% else %}
       {% assign title = page.title %}
       {% endif %}
       {% if page.link %}
-      <h1 id="page-title" class="page-title"><a href="{{ page.link }}">{{ title }} <span
+      <h1 id="homepage-title" class="page-title"><a href="{{ page.link }}">{{ title }} <span
             class="link-arrow">&rarr;</span></a></h1>
       {% else %}
-      <h1 id="page-title" class="page-title">{{ title }}</h1>
+      <h1 id="homepage-title" class="page-title">{{ title }}</h1>
       {% endif %}
     </header>
-    <div class="page-wrapper">
-      
-      <div class="page-content">
+    {% include page-image.html %}
+    <div class="homepage-wrapper">
+      <div class="homepage-content">
         {{ content }}
 
         {% if page.share %}
-          {% include social-share.html %}
+        {% include social-share.html %}
         {% endif %}
       </div>
     </div>

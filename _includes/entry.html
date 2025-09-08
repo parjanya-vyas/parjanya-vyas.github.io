@@ -24,6 +24,7 @@
     {{ entry.excerpt | markdownify }}
     {% endif %}
   </div>
-  <a href="{{ entry.link }}" target="_blank">{{entry.source}}</a>
+  <a href="{{ entry.link }}" target="_blank">{{entry.source}}</a><a href="{{entry.bibtex_url}}"
+    target="_blank">BibTeX</a>
 
 </article>

@@ -9,6 +9,11 @@
   max-width: $main-sidebar-max-width;
 }
 
+.page-header {
+    max-width: $main-sidebar-max-width;
+    margin: 0 auto;
+}
+
 .page-title {
   @include fluid-type($min-vw, $max-vw, 48px, 60px);
   margin-bottom: 0.5em;
@@ -21,21 +26,41 @@
 .page-image {
   position: relative;
   text-align: center;
-  margin-top: (-1 * $site-logo-height) / 2;
   margin-bottom: 2em;
   z-index: 1;
-
-  @include breakpoint($medium) {
-    margin-top: (-1.5 * $site-logo-height) / 2;
-  }
+  float: none;
+  max-width: 100%;
 
   @include breakpoint($large) {
-    margin-top: (-2 * $site-logo-height) / 2;
+    max-width: 30vw;
+    float: right;
+    display: flex;
   }
 
   img {
-    width: 100%;
+    width: 60%;
   }
+}
+
+.homepage-wrapper {
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: justify;
+  float: left;
+
+  @include breakpoint($large) {
+    max-width: 67%;
+  }
+}
+
+.homepage-title {
+  @include fluid-type($min-vw, $max-vw, 48px, 60px);
+  margin-bottom: 0.5em;
+  font-family: $title-font-family;
+  font-weight: $page-title-weight;
+  font-style: italic;
+  letter-spacing: -2px;
 }
 
 .page-image-caption {
@@ -232,6 +257,8 @@
   }
 
   .page-header {
+    max-width: $main-sidebar-max-width;
+    margin: 0 auto;
     @include breakpoint($large) {
       grid-column: 1 / -1;
       clear: both; // needed for floated layout

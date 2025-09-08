@@ -16,9 +16,9 @@
   
     
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Post Archive | Parjanya Vyas</title>
+<title>Dissertation | Parjanya Vyas</title>
 <meta name="generator" content="Jekyll v3.9.5" />
-<meta property="og:title" content="Post Archive" />
+<meta property="og:title" content="Dissertation" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Ph.D. Student at University of Waterloo" />
 <meta property="og:description" content="Ph.D. Student at University of Waterloo" />
@@ -27,10 +27,10 @@
 <meta property="og:site_name" content="Parjanya Vyas" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Post Archive" />
+<meta property="twitter:title" content="Dissertation" />
 <meta name="twitter:site" content="@" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Ph.D. Student at University of Waterloo","headline":"Post Archive","url":"http://localhost:4000/dissertation/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Ph.D. Student at University of Waterloo","headline":"Dissertation","url":"http://localhost:4000/dissertation/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -57,7 +57,7 @@
 </head>
 
 
-  <body class="layout--posts  post-archive">
+  <body class="layout--page  dissertation">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -71,7 +71,7 @@
   <div class="navigation-wrapper">
     <a href="#menu-toggle" id="menu-toggle">Menu</a>
     <nav id="primary-nav" class="site-nav animated drop">
-      <ul><li><a href="/">Home</a></li><li><a href="/publications/">Publications</a></li></ul>
+      <ul><li><a href="/">Home</a></li></ul>
     </nav>
   </div><!-- /.navigation-wrapper -->
 
@@ -92,147 +92,58 @@
 
     <main id="main" class="main-content" aria-label="Content">
   <article>
-    
-
+    <header class="page-header" style="padding-left: 1em; padding-right: 1em;">
+      
+      
+      <h1 id="page-title" class="page-title">Dissertation</h1>
+      
+    </header>
     <div class="page-wrapper">
       
       <div class="page-content">
-        
+        <p>Android’s open-source design and extensive customization have fueled its dominance across smartphones, automotive systems, wearables, and other domains. This flexibility, however, introduces serious security challenges, particularly in the enforcement of access control (AC). Prior research has investigated version-level, framework-level, and cross-layer inconsistencies, yet important gaps remain—especially in detecting OEM-introduced data-driven customizations, replicated APIs, and domain-specific adaptations (e.g., automotive) that are difficult to capture with existing techniques.</p>
 
+<p>This dissertation investigates how Android-specific contextual features can be systematically leveraged to uncover AC vulnerabilities that evade prior analyses. I present four main contributions:</p>
 
-<ul class="taxonomy-index">
-  
-  
-    <li>
-      <a href="#2025">
-        <strong>2025</strong> <span class="taxonomy-count">2</span>
-      </a>
-    </li>
-  
-    <li>
-      <a href="#2024">
-        <strong>2024</strong> <span class="taxonomy-count">1</span>
-      </a>
-    </li>
-  
-    <li>
-      <a href="#2023">
-        <strong>2023</strong> <span class="taxonomy-count">1</span>
-      </a>
-    </li>
-  
-</ul>
+<p>Bluebird — a probabilistic inference framework that derives AC requirements from application-side sensitivity indicators (UI cues and app-side AC). By fusing NLP-driven signals with static analysis, Bluebird identifies APIs whose protections do not match implied sensitivity. Applied to 14 ROMs, Bluebird flagged 391 likely-underprotected private APIs and supported 11 proof-of-concept exploits.</p>
 
+<p>Ariadne — a static-analysis technique built around a novel AC dependency graph abstraction that models explicit and inferred AC relationships among framework data holders. Ariadne detects inconsistencies introduced by data-driven vendor customizations that traditional tools miss. Evaluated on AOSP and vendor ROMs, it discovered 30 unique inconsistencies and enabled 13 proof-of-concept exploits.</p>
 
+<p>RepFinder — a large-scale measurement pipeline that identifies duplicated or “Replica” APIs created via copy-paste editing and evaluates their AC enforcement. Analyzing 342 ROMs from 10 vendors, RepFinder found replication to be widespread (≈141 Replicas/ROM on average) and that a significant fraction (~37% on average) of Replicas are under-protected.</p>
 
-  <section id="2025" class="taxonomy-section">
-    <h2 class="taxonomy-title">2025</h2>
-    <div class="entries-list">
-      
-        
+<p>AutoAcRaptor — a domain-specific static analysis framework for Android Automotive OS (AAOS) that identifies automotive entry points and evaluates both AC and feature-check enforcement. Applied to 10 AAOS ROMs, AutoAcRaptor reported an average of 23 auto feature and AC anomalies per ROM; several vendor-acknowledged issues demonstrate practical impact.</p>
 
-<article class="entry h-entry">
-  <header class="entry-header">
-    <h3 class="entry-title p-name">
-      Ariadne - Navigating through the Labyrinth of Data-Driven Customization Inconsistencies in Android
+<p>Collectively, these contributions show that Android-specific contextual features — from app-side sensitivity indicators to framework data holders and domain-specific service registrations — can be systematically harnessed to reveal overlooked AC vulnerabilities. They also demonstrate that techniques for identifying framework customization-induced vulnerabilities can be adapted to emerging Android-based domains such as AAOS by accounting for platform-specific differences.</p>
 
-    </h3>
-    
-  </header>
-  P Vyas, HUR Faheem, Y Aafer, N Asokan
-  <div class="entry-excerpt p-summary">
-    
-    <p>34th USENIX Security Symposium (USENIX Security 25), 2025</p>
+<h1 id="publications">Publications</h1>
 
-    
-  </div>
-  <a href="https://www.usenix.org/system/files/usenixsecurity25-vyas.pdf" target="_blank">PDF</a>
+<h2 id="ariadne---navigating-through-the-labyrinth-of-data-driven-customization-inconsistencies-in-android">Ariadne - Navigating through the Labyrinth of Data-Driven Customization Inconsistencies in Android</h2>
 
-</article>
-      
-        
+<p><strong>Authors:</strong> P Vyas, HUR Faheem, Y Aafer, N Asokan<br />
+<strong>Date Of Publication:</strong> 11th August, 2025<br />
+<strong>Conference:</strong> 34th USENIX Security Symposium (USENIX Security 25), 2025<br />
+<a href="https://www.usenix.org/system/files/usenixsecurity25-vyas.pdf">PDF</a>, <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:NZ3eK1lRlJ0J:scholar.google.com/&amp;output=citation&amp;scisdr=CgLrri9DELKggHtngOA:AAZF9b8AAAAAaL5hmODi7v20fkBx68JJx9sWYdE&amp;scisig=AAZF9b8AAAAAaL5hmJlAvJRTgm9MaKO6GW6U7M8&amp;scisf=4&amp;ct=citation&amp;cd=-1&amp;hl=en">BibTeX</a></p>
 
-<article class="entry h-entry">
-  <header class="entry-header">
-    <h3 class="entry-title p-name">
-      Red Light for Security - Uncovering Auto FeatureCheck and Access Control Gaps in AAOS
+<h2 id="red-light-for-security---uncovering-auto-featurecheck-and-access-control-gaps-in-aaos">Red Light for Security - Uncovering Auto FeatureCheck and Access Control Gaps in AAOS</h2>
 
-    </h3>
-    
-  </header>
-  Jumana, P Vyas, Y Aafer
-  <div class="entry-excerpt p-summary">
-    
-    <p>International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment</p>
+<p><strong>Authors:</strong> Jumana, P Vyas, Y Aafer<br />
+<strong>Date Of Publication:</strong> 10th July, 2025<br />
+<strong>Conference:</strong> International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment<br />
+<a href="https://link.springer.com/chapter/10.1007/978-3-031-97623-0_9">Springer Nature Link</a>, <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:H4OFfdOa_CMJ:scholar.google.com/&amp;output=citation&amp;scisdr=CgLrri9DEI-PuAJlG-k:AAZF9b8AAAAAaL5jA-k3gki_vNPjph1knahb4bs&amp;scisig=AAZF9b8AAAAAaL5jA5UZeDBEhLPpvdF1gqO9mOI&amp;scisf=4&amp;ct=citation&amp;cd=-1&amp;hl=en">BibTeX</a></p>
 
-    
-  </div>
-  <a href="https://link.springer.com/chapter/10.1007/978-3-031-97623-0_9" target="_blank">Springer Nature Link</a>
+<h2 id="a-longitudinal-analysis-of-replicas-in-the-wild-wild-android">A Longitudinal Analysis Of Replicas in the Wild Wild Android</h2>
 
-</article>
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-  </section>
+<p><strong>Authors:</strong> SMA Zaidi, S Khan, P Vyas, Y Aafer<br />
+<strong>Date Of Publication:</strong> 24th October, 2024<br />
+<strong>Conference:</strong> ASE ‘24 Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering<br />
+<a href="https://dl.acm.org/doi/abs/10.1145/3691620.3695546">ACM</a>, <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:KaAvLU1q-OMJ:scholar.google.com/&amp;output=citation&amp;scisdr=CgLrri9DEPzmlhNl1o0:AAZF9b8AAAAAaL5jzo15HFuY_f3MagVUos7psWQ&amp;scisig=AAZF9b8AAAAAaL5jzu1BOviUYzmkOL1_W2uZB_k&amp;scisf=4&amp;ct=citation&amp;cd=-1&amp;hl=en">BibTeX</a></p>
 
-  <section id="2024" class="taxonomy-section">
-    <h2 class="taxonomy-title">2024</h2>
-    <div class="entries-list">
-      
-        
+<h2 id="auditing-framework-apis-via-inferred-app-side-security-specifications">Auditing Framework APIs via Inferred App-side Security Specifications</h2>
 
-<article class="entry h-entry">
-  <header class="entry-header">
-    <h3 class="entry-title p-name">
-      A Longitudinal Analysis Of Replicas in the Wild Wild Android
-
-    </h3>
-    
-  </header>
-  SMA Zaidi, S Khan, P Vyas, Y Aafer
-  <div class="entry-excerpt p-summary">
-    
-    <p>ASE ‘24 Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering</p>
-
-    
-  </div>
-  <a href="https://dl.acm.org/doi/abs/10.1145/3691620.3695546" target="_blank">ACM</a>
-
-</article>
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-  </section>
-
-  <section id="2023" class="taxonomy-section">
-    <h2 class="taxonomy-title">2023</h2>
-    <div class="entries-list">
-      
-        
-
-<article class="entry h-entry">
-  <header class="entry-header">
-    <h3 class="entry-title p-name">
-      Auditing Framework APIs via Inferred App-side Security Specifications
-
-    </h3>
-    
-  </header>
-  P Vyas, A Waheed, Y Aafer, N Asokan
-  <div class="entry-excerpt p-summary">
-    
-    <p>32nd USENIX Security Symposium (USENIX Security 23), 2023</p>
-
-    
-  </div>
-  <a href="https://www.usenix.org/system/files/usenixsecurity23-vyas.pdf" target="_blank">PDF</a>
-
-</article>
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-  </section>
-
+<p><strong>Authors:</strong> P Vyas, A Waheed, Y Aafer, N Asokan<br />
+<strong>Date Of Publication:</strong> 09th August, 2023<br />
+<strong>Conference:</strong> 32nd USENIX Security Symposium (USENIX Security 23), 2023<br />
+<a href="https://www.usenix.org/system/files/usenixsecurity23-vyas.pdf">PDF</a>, <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:XBiG32dGpicJ:scholar.google.com/&amp;output=citation&amp;scisdr=CgLrri9DEPzmlhNiUxw:AAZF9b8AAAAAaL5kSxxKkfJy8jzpjfEVn4p43fI&amp;scisig=AAZF9b8AAAAAaL5kS5BeY_GG4ryDm-iyfpg40CI&amp;scisf=4&amp;ct=citation&amp;cd=-1&amp;hl=en">BibTeX</a></p>
 
 
         

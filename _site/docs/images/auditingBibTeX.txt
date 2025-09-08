@@ -1,0 +1,7 @@
+@inproceedings{vyas2023auditing,
+  title={Auditing framework $\{$APIs$\}$ via inferred app-side security specifications},
+  author={Vyas, Parjanya and Waheed, Asim and Aafer, Yousra and Asokan, N},
+  booktitle={32nd USENIX Security Symposium (USENIX Security 23)},
+  pages={6061--6077},
+  year={2023}
+}

@@ -1,0 +1,7 @@
+@inproceedings{zaidi2024longitudinal,
+  title={A Longitudinal Analysis Of Replicas in the Wild Wild Android},
+  author={Zaidi, Syeda Mashal Abbas and Khan, Shahpar and Vyas, Parjanya and Aafer, Yousra},
+  booktitle={Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering},
+  pages={1821--1833},
+  year={2024}
+}

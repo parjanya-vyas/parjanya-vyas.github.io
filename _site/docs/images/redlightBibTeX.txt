@@ -1,0 +1,8 @@
+@inproceedings{jumana2025red,
+  title={Red Light for Security: Uncovering Auto Feature Check and Access Control Gaps in AAOS},
+  author={Jumana and Vyas, Parjanya and Aafer, Yousra},
+  booktitle={International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment},
+  pages={147--166},
+  year={2025},
+  organization={Springer}
+}

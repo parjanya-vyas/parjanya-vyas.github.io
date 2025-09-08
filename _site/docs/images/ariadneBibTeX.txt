@@ -1,0 +1,7 @@
+@inproceedings{vyas2025ariadne,
+  title={Ariadne: Navigating through the Labyrinth of $\{$Data-Driven$\}$ Customization Inconsistencies in Android},
+  author={Vyas, Parjanya and Faheem, Haseeb Ur Rehman and Aafer, Yousra and Asokan, N},
+  booktitle={34th USENIX Security Symposium (USENIX Security 25)},
+  pages={4245--4264},
+  year={2025}
+}

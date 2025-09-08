@@ -26,25 +26,25 @@ Collectively, these contributions show that Android-specific contextual features
 **Authors:** P Vyas, HUR Faheem, Y Aafer, N Asokan\
 **Date Of Publication:** 11th August, 2025\
 **Conference:** 34th USENIX Security Symposium (USENIX Security 25), 2025\
-[PDF](https://www.usenix.org/system/files/usenixsecurity25-vyas.pdf), [BibTeX](https://scholar.googleusercontent.com/scholar.bib?q=info:NZ3eK1lRlJ0J:scholar.google.com/&output=citation&scisdr=CgLrri9DELKggHtngOA:AAZF9b8AAAAAaL5hmODi7v20fkBx68JJx9sWYdE&scisig=AAZF9b8AAAAAaL5hmJlAvJRTgm9MaKO6GW6U7M8&scisf=4&ct=citation&cd=-1&hl=en)
+[Paper Link](https://www.usenix.org/system/files/usenixsecurity25-vyas.pdf), [BibTeX](../docs/images/ariadneBibTeX.txt)
 
 ## Red Light for Security - Uncovering Auto FeatureCheck and Access Control Gaps in AAOS
 
 **Authors:** Jumana, P Vyas, Y Aafer\
 **Date Of Publication:** 10th July, 2025\
 **Conference:** International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment\
-[Springer Nature Link](https://link.springer.com/chapter/10.1007/978-3-031-97623-0_9), [BibTeX](https://scholar.googleusercontent.com/scholar.bib?q=info:H4OFfdOa_CMJ:scholar.google.com/&output=citation&scisdr=CgLrri9DEI-PuAJlG-k:AAZF9b8AAAAAaL5jA-k3gki_vNPjph1knahb4bs&scisig=AAZF9b8AAAAAaL5jA5UZeDBEhLPpvdF1gqO9mOI&scisf=4&ct=citation&cd=-1&hl=en)
+[Paper Link](https://link.springer.com/chapter/10.1007/978-3-031-97623-0_9), [BibTeX](../docs/images/redlightBibTeX.txt)
 
 ## A Longitudinal Analysis Of Replicas in the Wild Wild Android
 
 **Authors:** SMA Zaidi, S Khan, P Vyas, Y Aafer\
 **Date Of Publication:** 24th October, 2024\
 **Conference:** ASE '24 Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering\
-[ACM](https://dl.acm.org/doi/abs/10.1145/3691620.3695546), [BibTeX](https://scholar.googleusercontent.com/scholar.bib?q=info:KaAvLU1q-OMJ:scholar.google.com/&output=citation&scisdr=CgLrri9DEPzmlhNl1o0:AAZF9b8AAAAAaL5jzo15HFuY_f3MagVUos7psWQ&scisig=AAZF9b8AAAAAaL5jzu1BOviUYzmkOL1_W2uZB_k&scisf=4&ct=citation&cd=-1&hl=en)
+[Paper Link](https://dl.acm.org/doi/abs/10.1145/3691620.3695546), [BibTeX](../docs/images/wildAndroidBibTeX.txt)
 
 ## Auditing Framework APIs via Inferred App-side Security Specifications
 
 **Authors:** P Vyas, A Waheed, Y Aafer, N Asokan\
 **Date Of Publication:** 09th August, 2023\
 **Conference:** 32nd USENIX Security Symposium (USENIX Security 23), 2023\
-[PDF](https://www.usenix.org/system/files/usenixsecurity23-vyas.pdf), [BibTeX](https://scholar.googleusercontent.com/scholar.bib?q=info:XBiG32dGpicJ:scholar.google.com/&output=citation&scisdr=CgLrri9DEPzmlhNiUxw:AAZF9b8AAAAAaL5kSxxKkfJy8jzpjfEVn4p43fI&scisig=AAZF9b8AAAAAaL5kS5BeY_GG4ryDm-iyfpg40CI&scisf=4&ct=citation&cd=-1&hl=en)
+[Paper Link](https://www.usenix.org/system/files/usenixsecurity23-vyas.pdf), [BibTeX](../docs/images/auditingBibTeX.txt)
